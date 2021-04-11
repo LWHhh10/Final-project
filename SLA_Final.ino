@@ -96,7 +96,7 @@ void PlaneAndMove() {
     NeedMove_bool_Command[2] = false;
     IsMoving_B=true; 
     while (IsMoving_B) 
-    MoveStepperB(GCode_Arry_Command[3]);  //输入B轴位置 每次减小一个层高0.3mm
+    MoveStepperB(GCode_Arry_Command[3]);  //input the position of B axis
   }     
 }
 
